@@ -5,8 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Weather Dashboard</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <!-- NAVBAR -->
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+    
+    <!-- Jumbotron -->
+<div class="p-5 text-center bg-image rounded-3" style="
+background-image: url(https://media.istockphoto.com/photos/weather-forecast-concept-picture-id531889697?k=20&m=531889697&s=612x612&w=0&h=Pl_z87kLerrlN76k83OtXhURIm5P0YR83tBHnTsMKPU=);
+height: 400px;
+">
+<div class="mask" style="background-color: rgba(21, 163, 195, 0.6);">
+<div class="d-flex justify-content-center align-items-center h-100">
+  <div class="text-white">
+    <h1 class="mb-3">Weather N your pocket</h1>
+    <h4 class="mb-3">Keep the weather with you everywhere</h4>
+  </div>
+</div>
+</div>
+</div>
+
+
   </head>
   <body>
+      
         <!-- Submit button -->
     <div class="input">
         <input type="text" class ="inputValue">
@@ -20,6 +54,40 @@
         <p class="temp"></p>
         <p class="description"></p>
     </div>
+
+    <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+    
 
 
     <h1>Hello, world!</h1>
